@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bello Iyanuoluwa</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+</head>
+
+<body class="public-font">
+
+    <header class="header castoro-font">
+        <div class="brand">
+            <a href="/index.html">Iyanuoluwa</a>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a class="active" href="#">Intro</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="menu-toggler">
+                <span></span>
+            </div>
+            <script>
+                let mbtn = document.querySelector('.menu-toggler');
+                mbtn.addEventListener('click', () => {
+                    mbtn.classList.toggle('tive');
+                    document.querySelector(".menu ul").classList.toggle("open");
+                })
+            </script>
+            <!-- style for menu-toggler -->
+            <style>
+
+
+            </style>
+        </nav>
+    </header>
+
+    <section id="intro" class="intro">
+        <div class="intro-content">
+
+            <p class="sal">Hello</p>
+            <h1 class="sal-content castoro-font">
+                I'm Iyanuoluwa Bello <br>
+                a Software Developer <br>
+                based in Nigeria.
+            </h1>
+
+            <div class="intro-btn">
+                <a href="https://drive.google.com/file/d/1A9cOzpSbIQ1S_Ickyk0wcUFF5An9OC9E/view?usp=drivesdk"
+                    class="btn" target="_blank">More about me</a>
+                <a href="https://drive.google.com/file/d/1A9cOzpSbIQ1S_Ickyk0wcUFF5An9OC9E/view?usp=drivesdk"
+                    class="btn btn-transparent" target="_blank">GEt in touch</a>
+            </div>
+
+
+        </div>
+        <div class="intro-image">
+            <img src="./image/myImage.jpg" alt="My Picture">
+            <div class="handles">
+                <div class="get-my-cv">
+                    <a href="https://drive.google.com/file/d/1A9cOzpSbIQ1S_Ickyk0wcUFF5An9OC9E/view?usp=drivesdk"
+                        class="btn btn-transparent" target="_blank">Get My cv</a>
+                </div>
+                <ul class="social-handles">
+                    <li><i class="fa-brands fa-facebook"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                    <li><i class="fa-brands fa-x-twitter"></i></li>
+                    <li><i class="fa-brands fa-github"></i></li>
+                    <li class="move-next">
+                        <a href="#about" class="btn btn-round">
+                            <i class="fa-solid fa-caret-down"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+
+        <div class="about-me  sec-num">
+            <h2 class="castoro-font">About Me.</h2>
+            <p>
+                I am a software developer with over a year of experience, having transitioned from a background in Human
+                Nutrition and
+                Dietetics into the tech industry. I specialize in building responsive web applications and creating
+                seamless user
+                experiences using HTML, CSS, JavaScript, and React.
+
+            </p>
+            <p>
+                As a creative problem-solver, I am committed to staying current with the latest technologies. I focus on
+                delivering
+                high-quality, user-centered solutions that prioritize accessibility, performance, and usability,
+                exceeding expectations
+                at every opportunity.
+
+            </p>
+        </div>
+        <div class="skillset">
+            <div class="set-row">
+                <h4 class="castoro-font">Experience</h4>
+                <ul>
+                    <li>
+                        <p class="setname">Shecodes</p>
+                        <p class="add-info">Alumni</p>
+                    </li>
+                    <li>
+                        <p class="setname">3mtt Nigeria</p>
+                        <p class="add-info">Alumni</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="set-row">
+                <h4 class="castoro-font">Skills</h4>
+                <ul>
+                    <li>
+                        <p class="setname">Communication Skills</p>
+                    </li>
+                    <li>
+                        <p class="setname">Web Development and Security</p>
+                    </li>
+                    <li>
+                        <p class="setname">Idea Brainstorming</p>
+                    </li>
+                    <li>
+                        <p class="setname">Laboratory Skills and Techniques</p>
+                    </li>
+                    <li>
+                        <p class="setname">Expert Problem Solving</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="set-row">
+                <h4 class="castoro-font">Hobbies</h4>
+                <ul>
+                    <li>
+                        <p class="setname">Coding</p>
+                    </li>
+                    <li>
+                        <p class="setname">music-lover</p>
+                    </li>
+                    <li>
+                        <p class="setname">Gym</p>
+                    </li>
+                    <li>
+                        <p class="setname">Watching Movies</p>
+                    </li>
+                    <li>
+                        <p class="setname">Reading</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- My works Section -->
+    <section class="work" id="work">
+
+        <div class="my-works sec-num">
+            <h2 class="castoro-font">My Works</h2>
+        </div>
+        <div class="work-image">
+            <div class="w-card">
+                <a href="https://illustrious-cannoli-4cc5cf.netlify.app/" target="_blank">
+                    <div class="work-card-image">
+                        <img src="./image/task.jpg" alt="Work-content images">
+                    </div>
+                    <div class="w-content">
+                        <p class="setname">
+                            Task Manager Web Project
+                        </p>
+                        <p class="add-info">
+                            A whole new approach to revolutionizing your task
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="w-card">
+                <a href="https://s3.amazonaws.com/shecodesio-production/challenge_submissions/files/002/220/566/original/project1.html.html?1715724435"
+                    target="_blank">
+                    <div class="work-card-image">
+                        <img src="./image/mango.jpg" alt="Work-content images">
+                    </div>
+                    <div class="w-content">
+                        <p class="setname">
+                            mango smoothie Web Project
+                        </p>
+                        <p class="add-info">
+                            Get access to the best Mango lassisi around the world
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="contact" class="contact">
+
+        <div class="footer-wrapper">
+            <div class="sec-num f-num">
+                <h2 class="castoro-font">Get In Touch</h2>
+            </div>
+
+            <div class="foot">
+                <section class="foot1">
+                    <p>
+                        With a dedication to crafting innovative web applications,
+                        I combine technical expertise and
+                        creativity to deliver impactful solutions. Reach out, and let's
+                        turn your ideas into digital
+                        success together!
+                    </p>
+                    <div class="cn-me">
+
+                        <ul>
+                            <h2 class="castoro-font">Follow Me</h2>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Github</a></li>
+                            <li><a href="#">X</a></li>
+                        </ul>
+
+                        <ul>
+                            <h2 class="castoro-font">Contact Me</h2>
+                            <li><a href="#">Aminatiyanuoluwa@yahoo.com</a></li>
+                            <li><a href="#">+234 913 816 2345</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="foot2">
+                    <a href="#" class="btn btn-large foot-btn btn-brown"> Message Me</a>
+
+                    <a href="#" class="btn btn-transparent foot-btn btn-large">Get my Cv</a>
+                </section>
+            </div>
+
+
+        </div>
+
+    </footer>
+
+
+
+
+    <!--==
+        this section is for the testimonial
+        We will discuss how we can achieve this after discussing js
+        -->
+    <section class="testimonial">
+        <div class="test-header">
+            <h1 class="castoro-font">Hear What My Clients Have to Say</h1>
+        </div>
+        <div class="copyright">
+            <p class="cp">Iyanuoluwa bello's portfolio</p>
+        </div>
+    </section>
+    <!-- FontAwesome cdn -->
+    <script src="https://kit.fontawesome.com/c9ed9987f0.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
